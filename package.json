@@ -1,6 +1,6 @@
 {
-  "name": "@uniswap/interface",
-  "description": "Uniswap Interface",
+  "name": "@0x-m1cro/faisaax-gnosis",
+  "description": "FaisaaX",
   "homepage": ".",
   "private": true,
   "devDependencies": {

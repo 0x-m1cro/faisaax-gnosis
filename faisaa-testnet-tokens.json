@@ -1,0 +1,40 @@
+{
+    "name": "FaisaaX",
+    "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaaX/main/faisaa-logo.testnet.svg",
+    "keywords": [
+      "faisaa",
+      "defi"
+    ],
+    "version": {
+      "major": 1,
+      "minor": 0,
+      "patch": 0
+    },
+    "timestamp": "2023-04-20T20:37:00.000+00:00",
+    "tokens": [
+      {
+        "chainId": 1115,
+        "address": "0x25078A66841C60f2447446287B374D6f29b993A1",
+        "name": "Faisaa Token",
+        "symbol": "FAISAA",
+        "decimals": 18,
+        "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaaX/main/faisaa-logo.testnet.svg"
+      },
+       {
+        "chainId": 1115,
+        "address": "0xf6077b8dacec85be11d8d2da04e1705668985bcf",
+        "name": "Wrapped Core",
+        "symbol": "wCore",
+        "decimals": 18,
+        "logoURI": "https://scan.test.btcs.network/images/Core_logo.svg"
+      },
+      {
+        "chainId": 1115,
+        "address": "0x4Ee616e8a517f4b409E9B5efE8372d5F56946c90",
+        "name": "TEST Token",
+        "symbol": "TEST",
+        "decimals": 18,
+        "logoURI": "https://scan.test.btcs.network/images/Core_logo.svg"
+      }
+    ]
+  }

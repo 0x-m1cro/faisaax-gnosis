@@ -17,17 +17,17 @@ export function isAddress(value: any): string | false {
   }
 }
 
-const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
-  1: '',
-  3: 'ropsten.',
-  4: 'rinkeby.',
-  5: 'goerli.',
-  42: 'kovan.',
-  10200: 'Gnosis'
-}
+// const ETHERSCAN_PREFIXES: { [chainId in ChainId]: string } = {
+//   1116: '',
+//   1115: 'testnet.',
+// }
 
 export function getEtherscanLink(chainId: ChainId, data: string, type: 'transaction' | 'token' | 'address'): string {
-  const prefix = `https://${ETHERSCAN_PREFIXES[chainId] || ETHERSCAN_PREFIXES[1]}etherscan.io`
+ let prefix;
+ 
+  if (chainId == ChainId.TESTNET) {
+     prefix = `https://scan.test.btcs.network/`
+   } 
 
   switch (type) {
     case 'transaction': {

@@ -64,6 +64,9 @@ export const PINNED_PAIRS: { readonly [chainId in ChainId]?: [Token, Token][] } 
     [DAI, USDT],
     [FAISAA, TEST]
   ],
+  [ChainId.TESTNET]: [
+    [FAISAA, TEST]
+  ]
 }
 
 export interface WalletInfo {

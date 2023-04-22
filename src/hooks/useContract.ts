@@ -56,10 +56,11 @@ export function useENSRegistrarContract(withSignerIfPossible?: boolean): Contrac
   let address: string | undefined
   if (chainId) {
     switch (chainId) {
-      case ChainId.MAINNET:
       case ChainId.TESTNET:
+      case ChainId.MAINNET:
         address = '0x00000000000C2E074eC69A0dFb2997BA6C7d2e1e'
         break
+      
     }
   }
   return useContract(address, ENS_ABI, withSignerIfPossible)

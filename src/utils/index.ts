@@ -26,7 +26,7 @@ export function getEtherscanLink(chainId: ChainId, data: string, type: 'transact
  let prefix;
  
   if (chainId == ChainId.TESTNET) {
-     prefix = `https://scan.test.btcs.network/`
+     prefix = `https://scan.test.btcs.network`
    } 
 
   switch (type) {

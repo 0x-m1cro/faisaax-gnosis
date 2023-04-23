@@ -62,7 +62,7 @@ export function SwapPoolTabs({ active }: { active: 'swap' | 'pool' | 'p2p' }) {
       <StyledNavLink id={`pool-nav-link`} to={'/pool'} isActive={() => active === 'pool'}>
         {t('pool')}
       </StyledNavLink>
-      <StyledNavLink id={`swap-nav-link`} to={'//p2p.faisaa.finance'} isActive={() => active === 'p2p'}>
+      <StyledNavLink id={`swap-nav-link`} to={''} isActive={() => active == 'p2p'}>
         {t('p2p')}
       </StyledNavLink>
     </Tabs>

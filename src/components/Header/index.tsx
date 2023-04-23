@@ -13,7 +13,7 @@ import { useActiveWeb3React } from '../../hooks'
 import { useDarkModeManager } from '../../state/user/hooks'
 import { useETHBalances } from '../../state/wallet/hooks'
 
-import { YellowCard } from '../Card'
+import { BlueCard } from '../Card'
 import Settings from '../Settings'
 import Menu from '../Menu'
 
@@ -90,7 +90,7 @@ const TestnetWrapper = styled.div`
   pointer-events: auto;
 `
 
-const NetworkCard = styled(YellowCard)`
+const NetworkCard = styled(BlueCard)`
   width: fit-content;
   margin-right: 10px;
   border-radius: 12px;

@@ -8,7 +8,7 @@ import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
 const getTokenLogoURL = () =>
-  `https://github.com/faisaa-finance/faisaax-testnet/raw/master/public/images/core_logo.png`
+  `https://github.com/faisaa-finance/faisaax-testnet/raw/master/public/images/core_logo.svg`
 
 // const StyledEthereumLogo = styled.img<{ size: string }>`
 //   width: ${({ size }) => size};

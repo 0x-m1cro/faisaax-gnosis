@@ -1,0 +1,65 @@
+{
+  "name": "FaisaaX Default",
+  "timestamp": "2023-04-25T15:35:12.951Z",
+  "version": {
+    "major": 1,
+    "minor": 0,
+    "patch": 0
+  },
+  "tags": {},
+  "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png",
+  "keywords": [
+    "faisaax",
+    "default"
+  ],
+  "tokens": [
+    {
+      "chainId": 1115,
+      "address": "0x25078A66841C60f2447446287B374D6f29b993A1",
+      "name": "Faisaa Token",
+      "symbol": "FAISAA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
+    },
+    {
+      "chainId": 1115,
+      "address": "0x4Ee616e8a517f4b409E9B5efE8372d5F56946c90",
+      "name": "TEST Token",
+      "symbol": "TEST",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/core_logo.png"
+    },
+    {
+      "chainId": 1115,
+      "address": "0xf6077b8DAcEc85be11d8D2dA04e1705668985Bcf",
+      "name": "Wrapped Core",
+      "symbol": "wCore",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/core_logo.png"
+    },
+    {
+      "chainId": 1116,
+      "address": "0x25078A66841C60f2447446287B374D6f29b993A1",
+      "name": "Faisaa Token",
+      "symbol": "FAISAA",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
+    },
+    {
+      "chainId": 1116,
+      "address": "0x4Ee616e8a517f4b409E9B5efE8372d5F56946c90",
+      "name": "TEST Token",
+      "symbol": "TEST",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/core_logo.png"
+    },
+    {
+      "chainId": 1116,
+      "address": "0xf6077b8dacec85be11d8d2da04e1705668985bcf",
+      "name": "Wrapped Core",
+      "symbol": "wCore",
+      "decimals": 18,
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/core_logo.png"
+    }
+  ]
+}

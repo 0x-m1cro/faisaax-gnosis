@@ -1,2 +1,0 @@
-(this["webpackJsonp@0x-m1cro/faisaax-gnosis"]=this["webpackJsonp@0x-m1cro/faisaax-gnosis"]||[]).push([[7],{647:function(n,i){},648:function(n,i){},674:function(n,i){},675:function(n,i){},681:function(n,i){},733:function(n,i){}}]);
-//# sourceMappingURL=7.3728aaa8.chunk.js.map

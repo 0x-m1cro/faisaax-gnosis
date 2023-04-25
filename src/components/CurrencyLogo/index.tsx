@@ -7,8 +7,8 @@ import useHttpLocations from '../../hooks/useHttpLocations'
 import { WrappedTokenInfo } from '../../state/lists/hooks'
 import Logo from '../Logo'
 
-const getTokenLogoURL = (address: string) =>
-  `https://raw.githubusercontent.com/trustwallet/assets/master/blockchains/ethereum/assets/${address}/logo.png`
+const getTokenLogoURL = () =>
+  `https://github.com/faisaa-finance/faisaax-testnet/raw/master/public/images/core_logo.png`
 
 const StyledEthereumLogo = styled.img<{ size: string }>`
   width: ${({ size }) => size};
@@ -38,10 +38,10 @@ export default function CurrencyLogo({
 
     if (currency instanceof Token) {
       if (currency instanceof WrappedTokenInfo) {
-        return [...uriLocations, getTokenLogoURL(currency.address)]
+        return [...uriLocations, getTokenLogoURL()]
       }
 
-      return [getTokenLogoURL(currency.address)]
+      return [getTokenLogoURL()]
     }
     return []
   }, [currency, uriLocations])
@@ -50,5 +50,5 @@ export default function CurrencyLogo({
     return <StyledEthereumLogo src={EthereumLogo} size={size} style={style} />
   }
 
-  return <StyledLogo size={size} srcs={srcs} alt={`${currency?.symbol ?? 'token'} logo`} style={style} />
+  return <StyledLogo size={size} srcs={srcs} alt={`token logo`} style={style} />
 }

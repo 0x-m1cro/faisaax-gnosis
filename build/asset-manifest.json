@@ -9,8 +9,8 @@
     "runtime-main.js": "./static/js/runtime-main.73fe364e.js",
     "runtime-main.js.map": "./static/js/runtime-main.73fe364e.js.map",
     "static/css/4.f04942fe.chunk.css": "./static/css/4.f04942fe.chunk.css",
-    "static/js/4.79a8f914.chunk.js": "./static/js/4.79a8f914.chunk.js",
-    "static/js/4.79a8f914.chunk.js.map": "./static/js/4.79a8f914.chunk.js.map",
+    "static/js/4.2e28c37f.chunk.js": "./static/js/4.2e28c37f.chunk.js",
+    "static/js/4.2e28c37f.chunk.js.map": "./static/js/4.2e28c37f.chunk.js.map",
     "static/js/5.1d9022d1.chunk.js": "./static/js/5.1d9022d1.chunk.js",
     "static/js/5.1d9022d1.chunk.js.map": "./static/js/5.1d9022d1.chunk.js.map",
     "static/js/6.78eca163.chunk.js": "./static/js/6.78eca163.chunk.js",
@@ -22,10 +22,10 @@
     "static/js/9.3034cb31.chunk.js": "./static/js/9.3034cb31.chunk.js",
     "static/js/9.3034cb31.chunk.js.map": "./static/js/9.3034cb31.chunk.js.map",
     "index.html": "./index.html",
-    "precache-manifest.6edaef3ad878586fd4aaceb38a3d187b.js": "./precache-manifest.6edaef3ad878586fd4aaceb38a3d187b.js",
+    "precache-manifest.94a0cff9a5fa98c2dbb90b3c92d4d376.js": "./precache-manifest.94a0cff9a5fa98c2dbb90b3c92d4d376.js",
     "service-worker.js": "./service-worker.js",
     "static/css/4.f04942fe.chunk.css.map": "./static/css/4.f04942fe.chunk.css.map",
-    "static/js/4.79a8f914.chunk.js.LICENSE.txt": "./static/js/4.79a8f914.chunk.js.LICENSE.txt",
+    "static/js/4.2e28c37f.chunk.js.LICENSE.txt": "./static/js/4.2e28c37f.chunk.js.LICENSE.txt",
     "static/js/5.1d9022d1.chunk.js.LICENSE.txt": "./static/js/5.1d9022d1.chunk.js.LICENSE.txt",
     "static/js/9.3034cb31.chunk.js.LICENSE.txt": "./static/js/9.3034cb31.chunk.js.LICENSE.txt",
     "static/media/512x512_App_Icon.png": "./static/media/512x512_App_Icon.1bbd40a4.png",
@@ -67,7 +67,7 @@
   "entrypoints": [
     "static/js/runtime-main.73fe364e.js",
     "static/css/4.f04942fe.chunk.css",
-    "static/js/4.79a8f914.chunk.js",
+    "static/js/4.2e28c37f.chunk.js",
     "static/js/main.4d5b5054.chunk.js"
   ]
 }

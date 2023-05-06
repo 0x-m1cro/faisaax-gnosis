@@ -35,14 +35,11 @@ cypress/videos
 cypress/screenshots
 cypress/fixtures/example.json
 
-contracts
-/client
-/cypress
+#/contracts
 /forks
 /scripts
-/artifacts
+#/artifacts
 /cypress
-/forks
-cache
+/cache
 
 

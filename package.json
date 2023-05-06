@@ -85,7 +85,7 @@
   },
   "scripts": {
     "start": "dotenv -e .env react-scripts start",
-    "build": "GENERATE_SOURCEMAP=false react-scripts build",
+    "build": "react-scripts build",
     "build:dev": "dotenv -e .env react-scripts build",
     "test": "react-scripts test --env=jsdom",
     "eject": "react-scripts eject"

@@ -1,0 +1,13 @@
+
+//core-testnet
+npx hardhat run --network chiado scripts/deploy-factory.js
+
+Deploying contracts using 0xD3C51db3Ca5D0cE2b4966cd8c7039CE8B3326c31
+WETH deployed to : 0xDb4C908A02733E249FD57DDd46661c274A808b96
+Factory deployed to : 0x91B13eA3def246E1a376A773e3623571A939736D
+Factory initHash : 0xe56458e8ba827eec636d836a35494461ddcbdd957119f1fc80f510684cbe2cdd
+Routerv2 : 0xbeD2f0C4Ee607aD08A0240262E72cb41BB382498
+Multicall deployed to : 0x31c2985C535ee1b894D7647BAD07523183f7dFd6
+Faisaa deployed to : 0x6f075837bC8A44173b9fd5ed1a876b16C25edE1e
+Test Token deployed to : 0x6f075837bC8A44173b9fd5ed1a876b16C25edE1e
+All contracts successfuly deployed!

@@ -1,5 +1,5 @@
 {
-  "name": "FaisaaX Default",
+  "name": "FaisaaX",
   "timestamp": "2023-04-25T15:35:12.951Z",
   "version": {
     "major": 1,
@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png",
+  "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png",
   "keywords": [
     "faisaax",
     "default"
@@ -19,7 +19,7 @@
       "name": "Faisaa Token",
       "symbol": "FAISAA",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png"
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
     },
     {
       "chainId": 1115,
@@ -43,7 +43,7 @@
       "name": "Faisaa Token",
       "symbol": "FAISAA",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png"
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
     },
     {
       "chainId": 1116,

@@ -10,6 +10,8 @@
 #/build
 
 # misc
+.env
+.env.production
 .DS_Store
 .env.local
 .env.development.local
@@ -32,3 +34,14 @@ package-lock.json
 cypress/videos
 cypress/screenshots
 cypress/fixtures/example.json
+
+contracts
+/client
+/cypress
+/forks
+/scripts
+/artifacts
+/cypress
+/forks
+
+

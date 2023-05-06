@@ -7,7 +7,7 @@
     "patch": 0
   },
   "tags": {},
-  "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png",
+  "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png",
   "keywords": [
     "faisaax",
     "default"
@@ -15,15 +15,15 @@
   "tokens": [
     {
       "chainId": 1115,
-      "address": "0x25078A66841C60f2447446287B374D6f29b993A1",
+      "address": "0x6f075837bc8a44173b9fd5ed1a876b16c25ede1e",
       "name": "Faisaa Token",
       "symbol": "FAISAA",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png"
     },
     {
       "chainId": 1115,
-      "address": "0x4Ee616e8a517f4b409E9B5efE8372d5F56946c90",
+      "address": "0x0c11c40063aD8dc749EC5Cc27CDa5A71B2dd825c",
       "name": "TEST Token",
       "symbol": "TEST",
       "decimals": 18,
@@ -39,15 +39,15 @@
     },
     {
       "chainId": 1116,
-      "address": "0x25078A66841C60f2447446287B374D6f29b993A1",
+      "address": "0x6f075837bc8a44173b9fd5ed1a876b16c25ede1e",
       "name": "Faisaa Token",
       "symbol": "FAISAA",
       "decimals": 18,
-      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/faisaa-logo.png"
+      "logoURI": "https://raw.githubusercontent.com/faisaa-finance/faisaax-testnet/master/public/images/512x512_App_Icon.png"
     },
     {
       "chainId": 1116,
-      "address": "0x4Ee616e8a517f4b409E9B5efE8372d5F56946c90",
+      "address": "0x0c11c40063aD8dc749EC5Cc27CDa5A71B2dd825c",
       "name": "TEST Token",
       "symbol": "TEST",
       "decimals": 18,

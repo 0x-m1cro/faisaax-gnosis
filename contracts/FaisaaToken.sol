@@ -1,7 +1,20 @@
 // SPDX-License-Identifier: MIT
 pragma solidity =0.5.16;
 
-import './core/libraries/SafeMath.sol';
+// a library for performing overflow-safe math, courtesy of DappHub (https://github.com/dapphub/ds-math)
+library SafeMath {
+    function add(uint x, uint y) internal pure returns (uint z) {
+        require((z = x + y) >= x, 'ds-math-add-overflow');
+    }
+
+    function sub(uint x, uint y) internal pure returns (uint z) {
+        require((z = x - y) <= x, 'ds-math-sub-underflow');
+    }
+
+    function mul(uint x, uint y) internal pure returns (uint z) {
+        require(y == 0 || (z = x * y) / y == x, 'ds-math-mul-overflow');
+    }
+}
 
 contract Faisaa {
     /// @notice EIP-20 token name for this token
@@ -26,7 +39,7 @@ contract Faisaa {
     uint32 public constant minimumTimeBetweenMints = 1 days * 365;
 
     /// @notice Cap on the percentage of totalSupply that can be minted at each mint
-    uint8 public constant mintCap = 2;
+    uint8 public constant mintCap = 5;
 
     /// @notice Allowance amounts on behalf of others
     mapping (address => mapping (address => uint96)) internal allowances;
